@@ -1,12 +1,12 @@
 # frozen_string_literal: true
 
 module Queries
-  class Car::FetchAllCars < Queries::BaseQuery
+  class Car::FetchByPrice < Queries::BaseQuery
    
     type [Types::Model::CarType], null: false
 
     def resolve(**params)
-      response = ::Car.includes(:car_range)
+      response = ::Car.includes(:car_range).order("price Desc")
       
       response
     end

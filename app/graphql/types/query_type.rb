@@ -5,7 +5,6 @@ module Types
     include GraphQL::Types::Relay::HasNodesField
 
     field :fetch_all_cars, resolver: Queries::Car::FetchAllCars
-      
-
+    field :fetch_by_price, resolver: Queries::Car::FetchByPrice
   end
 end
