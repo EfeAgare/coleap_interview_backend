@@ -6,7 +6,7 @@ This is a graphql API that response with the provided data structure
 * Create an  GraphQL API endpoint to retrieve all the records with the given structure
 * The endpoint should allow to sort based on price
 * The endpoint should allow to search by make
-* Create an REST endpoint (or equivalent GraphQL query) to retrieve a single record, with the same object response
+* Create GraphQL query to retrieve a single record, with the same object response
 
 ### DATA STRUCTURE
 
