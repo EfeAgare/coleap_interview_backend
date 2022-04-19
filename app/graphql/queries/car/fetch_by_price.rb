@@ -6,7 +6,7 @@ module Queries
     type [Types::Model::CarType], null: false
 
     def resolve(**params)
-      response = ::Car.includes(:car_range).order("price Desc")
+      response = ::Car.by_price
       
       response
     end
