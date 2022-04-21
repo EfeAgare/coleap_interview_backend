@@ -1,6 +1,5 @@
 [
 	{
-		"id": "24uobf24jlgb",
 		"make": "Tesla",
 		"model": "X",
 		"car_range_id": 1,
@@ -9,7 +8,6 @@
 		"photo": "https://car.com/car.jpg"
 	},
 	{
-		"id": "2ejvb2rouvb",
 		"make": "Tesla",
 		"model": "X",
 		"car_range_id": 2,
@@ -18,7 +16,6 @@
 		"photo": "https://car.com/car2.jpg"
 	},
 	{
-		"id": "8wbvwb0f8b",
 		"make": "Mercedes Benz",
 		"model": "EQC",
 		"car_range_id": 1,
@@ -27,7 +24,6 @@
 		"photo": "https://car.com/car3.jpg"
 	},
 	{
-		"id": "89webvqbvq",
 		"make": "Mercedes Benz",
 		"model": "EQS",
 		"car_range_id": 3,
@@ -36,7 +32,6 @@
 		"photo": "https://car.com/car4.jpg"
 	},
 	{
-		"id": "56vhjbvqkbq",
 		"make": "Audi",
 		"model": "ETron",
 		"car_range_id": 4,

@@ -7,7 +7,6 @@ module Types
       field :make, String, null: false
       field :model, String, null: false
       field :colors, [String], null: false
-      field :year, String, null: false
       field :range, Types::Model::CarRangeType, null: false
       field :price, String, null: false
 
